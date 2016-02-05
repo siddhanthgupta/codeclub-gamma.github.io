@@ -1,0 +1,109 @@
+/* Banner settings */
+
+// Jumbotron image
+.jumbotron-banner {
+	background-image: url(/img/codeclubcover.jpg);
+	background-position: 60% 70%;
+  height: 250px;
+}
+
+// Jumbotron heading
+.jumbotron-banner h2 {
+  padding-top: 25px;
+  text-align: center;
+	margin-top: 10px;
+	font-family: $base-font-family;
+	font-size: $base-font-size * 2;
+	color: white;
+}
+
+// Jumbotron tagline
+.jumbotron-banner h4 {
+  text-align: center;
+	font-family: $base-font-family;
+	font-size: $base-font-size;  
+	color: darken(white, 12.5%);
+}
+
+/* Landing page settings */
+
+// Button for joining mailing list
+.mail-btn {
+   text-align: center;
+}
+
+// Button settings
+.btn-mail {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-family: $base-font-family;
+  font-size: 18px;
+}
+.btn-mail:hover,
+.btn-mail:active {
+  background-color: white;
+  color: #37717d;
+  font-family: $base-font-family;
+  font-size: 18px;
+}
+.inner-cover {
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+
+// Landing page message
+.cover-heading {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: white;
+  font-family: $base-font-family;
+  font-size: 60px;
+}
+// Landing page associate text
+.lead-cover {
+  padding-left: 60px;
+  padding-right: 60px;
+  color: #ccd7d7;
+  font-family: $base-font-family;
+  font-size: 24px;
+}
+
+// Mastfoot settings
+.mastfoot > .inner {
+  text-align: center;
+  padding-top: 100px;
+}
+.mastfoot > .inner > p > a {   
+  font-family: $base-font-family;
+  color: white;
+}
+.mastfoot > .inner > p {
+  color: #ccd7d7;
+  font-family: $base-font-family;
+}
+
+/* News list settings */
+.news-list {
+  padding-left: 300px;
+  padding-right: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.news-list h2 {
+  font-family: $head-font-family;
+  font-size: $base-font-size * 1.5;
+  color: $turquoise;
+  padding-bottom: 5px;
+}
+.news-list h3 {
+  font-family: $base-font-family;
+  font-size: $base-font-size * 1.4;
+  color: lighten($turquoise, 5%);
+  padding-bottom: 10px;
+}
+.news-list > .news-content {
+  padding-bottom: 50px;
+}

@@ -5,13 +5,13 @@
 
 // Our variables
 $base-font-family:	"Roboto Condensed", sans-serif;
-$base-font-size:		18px;
+$base-font-size:	 18px;
 $head-font-family:	"Oswald", sans-serif;
 
 $turquoise:					#29a09b;
 $turquoise-dark:		darken($turquoise, 12.5%);
 
-// Move down content because we have a fixed navbar that is 50px tall
+// Move down content and landing page cover picture
 body {
     padding-top: 50px;
     padding-bottom: 20px;
