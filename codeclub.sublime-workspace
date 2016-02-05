@@ -1,0 +1,488 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"ba",
+				"base-font-family"
+			],
+			[
+				"base",
+				"base-font-size"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"back",
+				"background-position"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"backgro",
+				"background-position"
+			],
+			[
+				"backg",
+				"background-size"
+			],
+			[
+				"backgr",
+				"background-image"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"m",
+				"margin-bottom"
+			],
+			[
+				"whee",
+				"wheel"
+			],
+			[
+				"toll",
+				"toll_tax"
+			],
+			[
+				"cars",
+				"cars_crossed"
+			],
+			[
+				"ma",
+				"max_so_far"
+			],
+			[
+				"max",
+				"max_ending_here"
+			],
+			[
+				"sq",
+				"sqrDist"
+			],
+			[
+				"p",
+				"printf	printf …"
+			],
+			[
+				"data",
+				"data_t"
+			],
+			[
+				"coo",
+				"coordinate_t"
+			],
+			[
+				"pus",
+				"push_back"
+			],
+			[
+				"conve",
+				"ConvexHull3D"
+			],
+			[
+				"inse",
+				"insertPosition"
+			],
+			[
+				"ins",
+				"insertPosition"
+			],
+			[
+				"Conve",
+				"ConvexHullOnline"
+			],
+			[
+				"has",
+				"hasPrev"
+			],
+			[
+				"leas",
+				"leastY"
+			],
+			[
+				"add",
+				"addLine"
+			],
+			[
+				"Co",
+				"ConvexHullDynamic"
+			],
+			[
+				"con",
+				"ConvexHullDynamic"
+			],
+			[
+				"beig",
+				"begin"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 390.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/sch/Documents/my-codeclub-site",
+		"/home/sch/Documents/my-codeclub-site/_includes",
+		"/home/sch/Documents/my-codeclub-site/_layouts",
+		"/home/sch/Documents/my-codeclub-site/_sass",
+		"/home/sch/Documents/my-codeclub-site/css",
+		"/home/sch/Documents/my-codeclub-site/img"
+	],
+	"file_history":
+	[
+		"/home/sch/Documents/my-codeclub-site/.gitignore",
+		"/home/sch/Documents/my-codeclub-site/index.html",
+		"/home/sch/Documents/my-codeclub-site/_sass/_base.scss",
+		"/home/sch/Documents/my-codeclub-site/css/main.scss",
+		"/home/sch/Documents/my-codeclub-site/css/index.scss",
+		"/home/sch/Documents/my-codeclub-site/_includes/head.html",
+		"/home/sch/Documents/my-codeclub-site/_layouts/default.html",
+		"/home/sch/Documents/my-codeclub-site/00-news.md",
+		"/home/sch/Documents/my-codeclub-site/_includes/banner.html",
+		"/home/sch/Documents/my-codeclub-site/03-about.md",
+		"/home/sch/Documents/my-codeclub-site/02-downloads.md",
+		"/home/sch/Documents/my-codeclub-site/01-blogs.md",
+		"/home/sch/Documents/my-codeclub-site/_includes/header.html",
+		"/home/sch/Documents/my-codeclub-site/index.md",
+		"/home/sch/Documents/my-codeclub-site/_layouts/page.html",
+		"/home/sch/Documents/my-codeclub-site/_sass/_layout.scss",
+		"/home/sch/Documents/my-codeclub-site/news.md",
+		"/home/sch/Documents/my-codeclub-site/blogs.md",
+		"/home/sch/Documents/my-codeclub-site/downloads.md",
+		"/home/sch/Documents/CodeClubJU/about.html",
+		"/home/sch/Documents/my-codeclub-site/_sass/_syntax-highlighting.scss",
+		"/home/sch/Documents/my-codeclub-site/_config.yml",
+		"/home/sch/Documents/my-codeclub-site/_includes/footer.html",
+		"/home/sch/Documents/CodeClubJU/codeclubju.sublime-project",
+		"/home/sch/Documents/my-codeclub-site/codeclub.sublime-project",
+		"/home/sch/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/sch/Documents/CodeClubJU/about.css",
+		"/home/sch/Documents/CodeClubJU/index.css",
+		"/home/sch/Documents/CodeClubJU/index.html",
+		"/home/sch/Documents/College/OOP/assignment3.cpp",
+		"/home/sch/Documents/College/OOP/assignment2.cpp",
+		"/home/sch/Documents/College/OOP/assignment1.cpp",
+		"/home/sch/Documents/College/OOP/assignment4.cpp",
+		"/home/sch/Documents/CodeClubJU/test.html",
+		"/home/sch/Documents/CodeClubJU/README.md",
+		"/home/sch/Documents/Python/trydjango/src/newsletter/admin.py",
+		"/home/sch/Documents/Python/trydjango/src/templates/home.html",
+		"/home/sch/Documents/Python/trydjango/src/newsletter/models.py",
+		"/home/sch/Documents/Python/trydjango/src/manage.py",
+		"/home/sch/Documents/Python/trydjango/src/trydjango/settings.py",
+		"/home/sch/Documents/Python/trydjango/src/trydjango/urls.py",
+		"/home/sch/Documents/Python/trydjango/src/newsletter/views.py",
+		"/home/sch/workspace/oop/src/assignment2.cpp",
+		"/home/sch/Documents/Python/trydjango/src/newsletter/templates/home.html",
+		"/home/sch/Documents/ICPC/Programs/CompGeom/ConvexHull-MonotoneChain.cpp",
+		"/home/sch/Documents/ICPC/Programs/CompGeom/ConvexHull-GrahamScan.cpp",
+		"/home/sch/Documents/ICPC/Programs/CompGeom/ConvexHull-Online.cpp",
+		"/home/sch/Videos/Movies/Bridge of Spies/Subtitles/English.srt",
+		"/home/sch/Documents/ICPC/Programs/CompGeom/ConvexHull-QuickHull.cpp",
+		"/home/sch/Documents/ICPC/Practice/Hackerearth/neo.cpp",
+		"/home/sch/Documents/ICPC/Programs/CompGeom/ConvexHull-3D.cpp",
+		"/home/sch/Documents/ICPC/Programs/CompGeom/output.eps",
+		"/home/sch/Documents/ICPC/Programs/CompGeom/test.cpp",
+		"/home/sch/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/etc/rc.local",
+		"/usr/share/icons/default/index.theme",
+		"/home/sch/Documents/ICPC/Practice/Codechef/January Challenge/cyclrace.cpp",
+		"/home/sch/Documents/ICPC/Programs/CompGeom/ConvexHull-Dynamic.cpp",
+		"/home/sch/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/sch/Documents/ICPC/Programs/CompGeom/ConvexHull.cpp",
+		"/home/sch/Documents/ICPC/Practice/ContestReminder",
+		"/home/sch/Documents/Codechef/January Challenge/chinfl.cpp",
+		"/home/sch/Documents/OpenCV/opencvtest.py",
+		"/home/sch/Documents/opencv.sh",
+		"/home/sch/Documents/Codechef/January Challenge/cyclrace.cpp"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"base-font-wei",
+			"button",
+			"24",
+			"jumbotron",
+			"h2",
+			"2f7f8a",
+			"29a09b",
+			"32c3bc",
+			"35cec7",
+			"57cec9",
+			"419a96",
+			"3c9e9f",
+			"10",
+			"toll_tax",
+			"match",
+			"int",
+			"d",
+			"int",
+			"d",
+			"int",
+			"Po",
+			"int",
+			"Po",
+			"int",
+			"ConvexHull3D",
+			"distance",
+			"insert",
+			"int",
+			"points",
+			"A",
+			",",
+			"right",
+			"hu",
+			"Set",
+			"set",
+			"Set",
+			"set",
+			"Set",
+			"set",
+			"Set",
+			"set",
+			"Set",
+			"set",
+			"Set",
+			"set",
+			"Set",
+			"set",
+			"v",
+			"double",
+			"d",
+			"int",
+			"furthestPo",
+			"int",
+			"pt",
+			"rightSetP",
+			"leftSetBP",
+			"volume",
+			"hulll",
+			"upper1Hull",
+			"lowerHull",
+			"upperHull",
+			"upper",
+			"b",
+			"k-1",
+			"pts",
+			"ccw",
+			"ConvexHullDynamic",
+			"std",
+			"updateLeftBorder",
+			"val_t",
+			"coord_t",
+			"coef_t",
+			"line",
+			"Line",
+			"line",
+			"Line",
+			"line",
+			"Line",
+			"line",
+			"minQuery",
+			"maxQuery",
+			"hasNext",
+			"hasPrev",
+			"xLeft",
+			"auto",
+			"s",
+			"long long",
+			"cur",
+			"i"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "codeclub.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,91 @@
+/* Navbar settings */
+
+// Change navbar-brand font and color
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
+    font-family: $head-font-family;
+    font-size: $base-font-size * 1.33;
+    color: $turquoise;
+}
+
+// Set links
+.navbar-default .navbar-nav > li > a {
+    font-family: $base-font-family;
+    color: $turquoise;
+}
+
+// Change on hover or focus
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus,
+.navbar > .container .navbar-brand:hover,
+.navbar > .container-fluid .navbar-brand:focus {
+    color: $turquoise-dark;
+}
+
+/* Banner settings */
+.jumbotron {
+	background-image: url(/img/codeclubcover.jpg);
+	background-position: 60% 70%;
+}
+.jumbotron h2 {
+	margin-top: 10px;
+	font-family: $base-font-family;
+	font-size: $base-font-size * 2;
+	color: white;
+}
+.jumbotron h4 {
+	font-family: $base-font-family;
+	font-size: $base-font-size;
+	color: darken(white, 12.5%);
+}
+
+/* Landing page settings */
+.mail-btn {
+   text-align: center;
+}
+.btn {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+}
+.btn:hover,
+.btn:active {
+  background-color: white;
+  color: #37717d;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 18px;
+}
+.inner-cover {
+  padding-top: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: center;
+}
+.cover-heading {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 60px;
+}
+.lead {
+  padding-left: 60px;
+  padding-right: 60px;
+  color: #ccd7d7;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 24px;
+}
+.mastfoot > .inner {
+  text-align: center;
+  padding-top: 100px;
+}
+.mastfoot > .inner > p > a {   
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+}
+.mastfoot > .inner > p {
+  color: #ccd7d7;
+  font-family: 'Roboto Condensed', sans-serif;
+}
