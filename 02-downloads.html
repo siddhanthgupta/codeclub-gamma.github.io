@@ -4,26 +4,27 @@ title: Downloads
 tagline: What we make.
 permalink: /downloads/
 ---
-<div class="container news-list">
+<div class="container blogs-list">
   {% assign previous_year = 1900 %}
-	{% for post in site.categories.downloads  %}
+  {% for post in site.categories.downloads  %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
 
     {% if this_year != previous_year %}
     <div style="clear: both"></div>
     <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+    
     {% endif %}
     
-    <div class="news-content">
-      <h3>{{ post.title }}</h3>
-      <div class="col-md-2">
-      	<div class="date news-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+    <div class="blogs-content">
+      
+      <div class="col-md-8 blogs-container">
+        <a href="{{ post.link | prepend: site.baseurl }}"><h3><span class="glyphicon glyphicon-file" aria-hidden="true" style="padding-right: 0.5em"></span>{{ post.title }}</h3></a>
       </div>
-      <div class="col-md-10 news-container">
-      	{{ post.content }}
-      	<a href="{{ post.link | prepend: site.baseurl }}" class="btn btn-primary btn-sm">View</a>
+      <div class="col-md-4">
+        <div class="date blogs-date"><span class="glyphicon glyphicon-calendar" aria-hidden="true" style="padding-right: 0.5em"></span>{{ post.date | date: "%b %-d, %Y" }}</div>
       </div>
+      
     </div>
     {% assign previous_year = this_year %}
-	{% endfor %}
+  {% endfor %}
 </div>

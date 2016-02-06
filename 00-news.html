@@ -15,13 +15,12 @@ permalink: /news/
     {% endif %}
     
     <div class="news-content">
-      <h3>{{ post.title }}</h3>
+      <h3><span class="glyphicon glyphicon-circle-arrow-right" aria-hidden="true" style="padding-right: 0.5em"></span>{{ post.title }}</h3>
       <div class="col-md-2">
-        <div class="date news-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+        <div class="date news-date"><span class="glyphicon glyphicon-calendar" aria-hidden="true" style="padding-right: 0.5em"></span>{{ post.date | date: "%b %-d, %Y" }}</div>
       </div>
       <div class="col-md-10 news-container">
-        {{ post.excerpt }}
-        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm">Read more</a>
+        {{ post.content }}
       </div>
     </div>
     {% assign previous_year = this_year %}

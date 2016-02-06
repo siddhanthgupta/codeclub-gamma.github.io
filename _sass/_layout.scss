@@ -6,7 +6,25 @@
 	background-position: 60% 70%;
   height: 250px;
 }
-
+.jumbotron-blog {
+  background-image: url(/img/codeclubcover.jpg);
+  background-position: 60% 70%;
+  height: 250px;
+}
+.jumbotron-blog h2 {
+  padding-top: 25px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: $base-font-family;
+  font-size: $base-font-size * 2;
+  color: white;
+}
+.jumbotron-banner h4 {
+  text-align: center;
+  font-family: $base-font-family;
+  font-size: $base-font-size;  
+  color: darken(white, 12.5%);
+}
 // Jumbotron heading
 .jumbotron-banner h2 {
   padding-top: 25px;
@@ -35,7 +53,7 @@
 // Button settings
 .btn-mail {
   background-color: transparent;
-  border: 1px solid white;
+  border: 2px solid white;
   color: white;
   font-family: $base-font-family;
   font-size: 18px;
@@ -91,56 +109,104 @@
 }
 .news-list h2 {
   font-family: $head-font-family;
-  font-size: $base-font-size * 1.5;
+  font-size: $base-font-size * 1.4;
   color: $turquoise;
-  padding-bottom: 5px;
+  padding: 7px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
+  width: 80px;
+  margin-right: auto;
+  margin-left: 127px;
 }
 .news-list h3 {
   font-family: $base-font-family;
-  font-size: $base-font-size * 1.4;
+  font-size: 25px;
   color: lighten($turquoise, 5%);
+  padding-top: 10px;
   padding-bottom: 10px;
   margin-left: 142px;
+  margin-top: 10px;
 }
 .news-container {
-  padding-bottom: 25px;
+  padding-bottom: 40px;
+}
+.post-container {
+  font-size: 18px;
+  font-family: $base-font-family;
+}
+.post-content {
+  margin-top: 50px;
+  max-width: 800px;
 }
 .news-container a {
   color: darken($turquoise, 5%);
 }
 .news-date {
   font-family: $base-font-family;
-  color: $turquoise;
-  font-size: 18px;
-  padding-bottom: 10px;
-}
-.news-container .btn {
-  background: lighten($turquoise, 7%);
-  border: 1px solid transparent;    
-  color: white;
-  font-family: $base-font-family;
+  color: darken(white, 50%);
   font-size: 14px;
-  text-align: center;
-  padding: 2px 7px;
-}
-.news-container .btn:hover,
-.news-container .btn:focus {
-  background: $turquoise;
+  padding-bottom: 10px;
 }
 code {
   color: darken($turquoise, 12.5%);
   background: none;
 }
-
+.blogs-list {
+  max-width: 600px;
+}
+.blogs-list a {
+  text-decoration: none !important;
+}
+.blogs-list h2 {
+  font-family: $head-font-family;
+  font-size: $base-font-size * 1.4;
+  color: $turquoise;
+  padding: 7px;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: auto;
+  width: 80px;
+}
+.blogs-list h3 {
+  font-family: $base-font-family;
+  font-size: 18px;
+  color: lighten($turquoise, 5%);
+  margin-top: 10px;
+}
+.blogs-list h3:hover,
+.blogs-list h3:focus {
+  color: $turquoise-dark;
+}
+.blogs-date {
+  font-family: $base-font-family;
+  color: darken(white, 50%);
+  font-size: 14px;
+  text-align: right;
+  margin-top: 13px;
+}
 
 @media screen and (max-width: 980px) {
   .news-list h3 {
     margin-left: 15px;
     padding-bottom: 0px;
   }
+  .news-list h2 {
+    margin-left: 0px;
+  }
   .news-date {
     padding-bottom: 20px;
+    padding-left: 40px;
+  }
+  .post-content .news-date {
+    padding-left: 0px;
+  }
+  .blogs-date {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+  }
+  .blog-list h2 {
+    padding-left: 0px;
   }
 }

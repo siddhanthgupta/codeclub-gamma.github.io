@@ -4,7 +4,7 @@ title: Blogs
 tagline: What we say.
 permalink: /blogs/
 ---
-<div class="container news-list">
+<div class="container blogs-list">
   {% assign previous_year = 1900 %}
   {% for post in site.categories.blogs  %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
@@ -14,15 +14,15 @@ permalink: /blogs/
     <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
     {% endif %}
     
-    <div class="news-content">
-      <h3>{{ post.title }}</h3>
-      <div class="col-md-2">
-        <div class="date news-date">{{ post.date | date: "%b %-d, %Y" }}</div>
+    <div class="blogs-content">
+      
+      <div class="col-md-8 blogs-container">
+        <a href="{{ post.url | prepend: site.baseurl }}"><h3><span class="glyphicon glyphicon-ok-sign" aria-hidden="true" style="padding-right: 0.5em"></span>{{ post.title }}</h3></a>
       </div>
-      <div class="col-md-10 news-container">
-        {{ post.excerpt }}
-        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm">Read more</a>
+      <div class="col-md-4">
+        <div class="date blogs-date"><span class="glyphicon glyphicon-calendar" aria-hidden="true" style="padding-right: 0.5em"></span>{{ post.date | date: "%b %-d, %Y" }}</div>
       </div>
+
     </div>
     {% assign previous_year = this_year %}
   {% endfor %}
