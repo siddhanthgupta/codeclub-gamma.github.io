@@ -5,32 +5,25 @@ tagline: What we do.
 permalink: /news/
 ---
 <div class="container news-list">
-	{% for post in site.categories.news  %}
+  {% assign previous_year = 1900 %}
+  {% for post in site.categories.news  %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
-    {% if forloop.first %}
+    {% if this_year != previous_year %}
+    <div style="clear: both"></div>
     <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
-    <div class="news-content">
     {% endif %}
-
-    <h3>{{ post.title }}</h3>
-    <div class="col-md-2">
-    	<div class="date news-date">{{ post.date | date: "%b %-d, %Y" }}</div>
-    </div>
-    <div class="col-md-10 news-container">
-    	{{ post.content }}
-    </div>
     
-    {% if forloop.last %}
-    </div>
-    {% else %}
-      {% if this_year != next_year %}
+    <div class="news-content">
+      <h3>{{ post.title }}</h3>
+      <div class="col-md-2">
+        <div class="date news-date">{{ post.date | date: "%b %-d, %Y" }}</div>
       </div>
-      <div style="clear: both;"></div>
-      <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
-      <div class="news-content">
-      {% endif %}
-    {% endif %}
-	{% endfor %}
+      <div class="col-md-10 news-container">
+        {{ post.excerpt }}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm">Read more</a>
+      </div>
+    </div>
+
+  {% endfor %}
 </div>
