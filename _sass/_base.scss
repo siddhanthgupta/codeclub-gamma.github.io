@@ -22,3 +22,9 @@
   color: $turquoise-dark;
 }
 
+// Change on active
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+	color: $turquoise-dark;
+}

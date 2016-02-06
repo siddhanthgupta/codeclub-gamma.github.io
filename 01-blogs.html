@@ -4,3 +4,27 @@ title: Blogs
 tagline: What we say.
 permalink: /blogs/
 ---
+<div class="container blogs-list">
+	{% for post in site.categories.blogs  %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+
+    {% if forloop.first %}
+    <h2 id="{{ this_year }}-ref">{{this_year}}</h2>
+    <div class="blogs-content">
+    {% endif %}
+    <div class="col-md-8"><a href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a></div>
+    <div class="col-md-4"><div class="date blogs-date">{{ post.date | date: "%b %-d, %Y" }}</div></div>
+        
+    {% if forloop.last %}
+    </div>
+    {% else %}
+      {% if this_year != next_year %}
+      </div>
+      <div style="clear: both;"></div>
+      <h2 id="{{ next_year }}-ref">{{next_year}}</h2>
+      <div class="blogs-content">
+      {% endif %}
+    {% endif %}
+	{% endfor %}
+</div>
