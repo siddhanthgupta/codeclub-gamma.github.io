@@ -24,6 +24,6 @@ permalink: /blogs/
         <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-sm">Read more</a>
       </div>
     </div>
-
+    {% assign previous_year = this_year %}
   {% endfor %}
 </div>
