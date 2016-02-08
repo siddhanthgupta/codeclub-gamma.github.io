@@ -52,6 +52,7 @@
 
 // Button settings
 .btn-mail {
+  margin-top: 30px;
   background-color: transparent;
   border: 2px solid white;
   color: white;
@@ -65,10 +66,12 @@
   font-family: $base-font-family;
   font-size: 18px;
 }
+.wrapper {
+  vertical-align: center;
+}
 .inner-cover {
+  max-width: 800px;
   padding-top: 70px;
-  padding-left: 100px;
-  padding-right: 100px;
   text-align: center;
 }
 
@@ -82,8 +85,8 @@
 }
 // Landing page associate text
 .lead-cover {
-  padding-left: 60px;
-  padding-right: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #ccd7d7;
   font-family: $base-font-family;
   font-size: 24px;
