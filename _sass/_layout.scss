@@ -63,8 +63,6 @@
 .btn-mail:active {
   background-color: white;
   color: #37717d;
-  font-family: $base-font-family;
-  font-size: 18px;
 }
 .wrapper {
   vertical-align: center;
@@ -188,7 +186,7 @@ code {
   margin-top: 13px;
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 768px) {
   .news-list h3 {
     margin-left: 15px;
     padding-bottom: 0px;
@@ -211,5 +209,45 @@ code {
   }
   .blog-list h2 {
     padding-left: 0px;
+  }
+  .inner-cover {
+    max-width: 800px;
+    padding-top: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  // Landing page message
+  .cover-heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-family: $base-font-family;
+    font-size: 45px;
+  }
+  // Landing page associate text
+  .lead-cover {
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ccd7d7;
+    font-family: $base-font-family;
+    font-size: 18px;
+  }
+
+  // Mastfoot settings
+  .mastfoot > .inner {
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  // Button settings
+  .btn-mail {
+    margin-top: 5px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-family: $base-font-family;
+    font-size: 16px;
   }
 }
